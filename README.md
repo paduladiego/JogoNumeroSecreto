@@ -7,7 +7,7 @@ Bem-vindo ao Jogo do Número Secreto! Este é um jogo simples onde você precisa
 
 - **Voz de Acessibilidade:** Utilizamos a biblioteca `responsiveVoice` para fornecer uma experiência acessível, com leitura em voz alta dos textos exibidos na tela.
 
-- **Limite de Tentativas:** Implementamos um limite de tentativas para tornar o jogo mais desafiador. Você tem um número máximo de tentativas para descobrir o número secreto.
+- **Funcionalidades de Teclas:** Implementamos funcionalidades de teclado e conteção de digitações indevidas.
 
 - **Feedback Sonoro:** Para facilitar a jogabilidade, adicionamos sons de feedback para indicar se o número secreto é maior ou menor que o chute atual.
 
