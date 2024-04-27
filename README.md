@@ -1,3 +1,7 @@
+<table>
+<tr>
+<td>
+
 ># Jogo do Número Secreto
 >## Estudo de JS
 
@@ -21,7 +25,7 @@ Bem-vindo ao Jogo do Número Secreto! Este é um jogo simples onde você precisa
 4. Continue tentando até descobrir o número secreto!
 5. Ao acertar, você pode reiniciar o jogo para jogar novamente.
 
-*Divirta-se jogando o Jogo do Número Secreto!*
+**Divirta-se jogando o Jogo do Número Secreto!**
 <br>
 <br>
 >## Melhorias no Jogo do Número Secreto
@@ -50,3 +54,63 @@ No meu código, adicionei algumas funcionalidades e melhorias em relação ao c�
 - Aprimorei a interface do usuário com mensagens mais claras e informativas, facilitando a compreensão do jogo e das ações necessárias.
 
 Essas adições visam tornar o jogo do número secreto mais envolvente, informativo e amigável para o usuário, proporcionando uma experiência de jogo mais completa e agradável.
+</td>
+<td>
+
+># Secret Number Game
+>## JS Study
+
+Welcome to the Secret Number Game! This is a simple game where you need to guess the secret number between 1 and 10.
+
+### Additional Features:
+
+- **Accessibility Voice:** We use the `responsiveVoice` library to provide an accessible experience, with text-to-speech reading of the text displayed on the screen.
+
+- **Keyboard Functionality:** We implemented keyboard functionalities and prevented improper inputs.
+
+- **Sound Feedback:** To enhance gameplay, we added sound feedback to indicate if the secret number is higher or lower than the current guess.
+
+- **Restart the Game:** After guessing the secret number, you can restart the game to try again.
+
+### How to Play:
+
+1. Choose a number between 1 and 10.
+2. Press the "Guess" button or press Enter to check if you guessed correctly.
+3. If the number is higher than the secret number, a message will indicate that the secret number is lower. If it is lower, it will indicate that the secret number is higher.
+4. Keep trying until you discover the secret number!
+5. When you guess correctly, you can restart the game to play again.
+
+*Have fun playing the Secret Number Game!*
+<br>
+<br>
+>## Improvements to the Secret Number Game
+
+In my code, I added some features and improvements compared to the class code of the secret number game. Here are the main additions and their functions:
+
+### Custom Correct and Incorrect Messages
+
+- I added custom messages for when the user guesses the secret number correctly or incorrectly. This provides a more interactive and informative experience for the player.
+
+### Attempt Control and Visual Feedback
+
+- I implemented an attempt control, displaying the number of attempts made by the user. This helps the player track their progress in the game.
+- I added visual feedback to the user, indicating if the guess was higher or lower than the secret number. This helps the player adjust their guesses.
+
+### Automatic Game Restart
+
+- I configured the game to automatically restart after the user guesses the secret number correctly. This allows the player to continue playing without manually restarting.
+
+### Data Input Restriction
+
+- I added a restriction for data input, allowing only numbers from 0 to 9. This prevents the user from entering invalid data and maintains the integrity of the game.
+
+### User Interface Improvements
+
+- I improved the user interface with clearer and more informative messages, making it easier to understand the game and the necessary actions.
+
+These additions aim to make the secret number game more engaging, informative, and user-friendly, providing a more complete and enjoyable gaming experience.
+
+
+</td>
+</tr>
+</table>
